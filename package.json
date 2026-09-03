@@ -1,0 +1,28 @@
+{
+  "name": "gemini-tg-shop-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram-бот магазина на Gemini: ротация ключей + каскад моделей, личности, каталог, QR-оплата",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "seed": "tsx src/shop/seed.ts",
+    "chat": "tsx demo/chat-cli.ts",
+    "rotation-demo": "tsx demo/rotation-demo.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "@types/qrcode": "^1.5.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
